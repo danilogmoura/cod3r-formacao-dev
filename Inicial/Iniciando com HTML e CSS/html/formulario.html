@@ -11,19 +11,33 @@
         <form action="exercicios.html">
             <div>
                 <div>
-                    <label for="nome">Nome: </label>
+                    <label for="nome">Nome:</label>
                 </div>
                 <input type="text" name="nome" id="nome" required>
             </div>
             <div>
                 <div>
-                    <label for="email">E-mail: </label>
+                    <label for="email">E-mail:</label>
                 </div>
                 <input type="email" name="email" id="email" required>
             </div>
             <div>
-                <div><label for="senha">Senha: </label></div>
+                <div><label for="senha">Senha:</label></div>
                 <input type="password" name="senha" id="senha" required>
+            </div>
+            <div>
+                <div><label for="bio">Fale sobre você:</label></div>
+                <textarea name="bio" id="bio" cols="25" rows="5"></textarea>
+            </div>
+            <div>
+                <input type="radio" name="residencia" id="casa" value="casa">
+                <label for="casa">Casa</label>
+                <input type="radio" name="residencia" id="apto" value="apto">
+                <label for="apto">Apartanento</label>
+                <input type="radio" name="residencia" id="sitio" value="sitio">
+                <label for="sitio">Sítio</label>
+                <input type="radio" name="residencia" id="fazenda" value="fazenda">
+                <label for="fazenda">Fazenda</label>
             </div>
             <div>
                 <button>Salvar</button>
