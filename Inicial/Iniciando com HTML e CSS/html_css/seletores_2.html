@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Seletores de Elementos</title>
+
+        <style>
+            body {
+                background-color: black;
+                color: white;
+            }
+
+            div:nth-child(even) {
+                background-color: rebeccapurple;
+            }
+
+            div:nth-child(odd) {
+                background-color: plum;
+            }
+
+            div:hover {
+                background-color: purple;
+            }
+
+            input:focus {
+                outline: none;
+                border: 2px greenyellow solid;
+                border-radius: 2px;
+            }
+
+            p::first-letter {
+                font-size: 50px;
+            }
+
+            p::first-line {
+                font-weight: bold;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h2>Seletores de Pseudo-Classes</h2>
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <input type="text">
+
+        <h2>Seletores de Pseudo-Elementos</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, veniam ipsum?</p>
+        <p>Commodi illum officia alias deserunt laboriosam asperiores culpa facilis id autem inventore possimus, expedita debitis maiores rem laborum repudiandae!</p>
+    </body>
+</html>
