@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Cod3r Menu</title>
+        
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+            
+            body {
+                background-color: darkgrey;
+                color: white;
+
+                font-family: "Oswald", sans-serif;
+
+                border: 0;
+                margin: 0;
+            }
+
+            .fex-container {
+                background-color: #333;
+                border-bottom: solid cyan 5px;
+                display: flex;
+                padding: 5px;
+
+                align-items: center;
+            }
+
+            div.logo > img {
+                width: 100%;
+                height: 60px;
+            }
+
+            div.menu {
+                flex: 1;
+            }
+
+            ul {
+                display: flex;
+                list-style: none;
+            }
+
+            li {
+                padding: 0 10px;
+            }
+
+            li:hover {
+                background-color: cyan;
+            }
+
+            a {
+                text-decoration: none;
+                color: white;
+                font-weight: 200;
+
+                width: 110px;
+                height: 50px;
+
+                font-size: 1.5rem;
+            }
+
+            div.login {
+                display: flex;
+
+            }
+
+            .button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                background-color: white;
+                text-decoration: none;
+                
+                border-radius: 20px;
+            }
+
+            .button-login {
+                background-color: black;
+            }
+
+            .button-cadastro {
+                background-color: crimson;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="fex-container">
+            <div class="logo">
+                <img src="../images/cod3r-logobranca.png" alt="Logo Coder">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#cursos">Cursos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+            <div class="login">
+                <a class="button button-login" href="#login">Login</a>
+                <a class="button button-cadastro" href="#cadastro">Cadastro</a>
+            </div>
+        </div>
+        
+    </body>
+</html>
