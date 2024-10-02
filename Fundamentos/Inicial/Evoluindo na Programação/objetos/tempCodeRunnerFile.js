@@ -1,0 +1,1 @@
+this.preco * (this.preco / 100 * this.desconto)
